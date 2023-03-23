@@ -144,8 +144,6 @@ VALUES ( 42453, 'KG130', 3, 1290.00 );
 COMMIT;
 
 --display table contents
-SELECT * FROM rep;
-SELECT * FROM customer;
-SELECT * FROM product;
-SELECT * FROM invoice;
-SELECT * FROM line;
+SELECT rep_id FROM rep;
+SELECT cust_id, cust_name FROM customer;
+SELECT prod_desc FROM product;
